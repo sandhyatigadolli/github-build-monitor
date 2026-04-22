@@ -1,0 +1,12 @@
+name: Delay
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: sleep 60
+        run: exit 1
